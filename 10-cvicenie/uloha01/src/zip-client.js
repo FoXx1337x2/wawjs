@@ -1,31 +1,23 @@
 const http = require("http");
 const fs = require("fs");
-const {pipeline} = require("stream")
+const { pipeline } = require("stream")
 
 module.exports = {
-    send: function (name) {
-        return zip_client(name)
-    },
-    close: function () {
-        return close_server()
-    }
+    send: zip_client,
+    close: close_server
 };
 
 const url = "http://localhost:9999";
 
-function zip_client(name) {
+function errCb(err) {
+    if (err)
+        console.err(err);
+}
 
-    let _name = [];
+function zip_client(name = process.argv[2]) {
 
-    if (name) {
-        _name.push(name)
-    } else {
-        _name = process.argv.slice(2)
-    }
-
-
-    const fileName = `${__dirname}/clientFiles/${_name[0]}`;
-    const fileName2 = `${__dirname}/clientFiles/${_name[0]}.gz`;
+    const fileName = `${__dirname}/clientFiles/${ name }`;
+    const fileName2 = `${__dirname}/clientFiles/${ name }.gz`;
 
 
     let input = fs.createReadStream(fileName);
@@ -33,50 +25,33 @@ function zip_client(name) {
 
 
     let request = http.request(url, {
-
         method: "POST",
-
         headers: {
             'file-name': name
         }
-
-    })
-        .on("response", (res) => {
-
-            pipeline(
-                res,
-                output,
-                (err) => {
-                    if (err) {
-                        console.error(err)
-                    }
-                }
-            );
-
-        });
+    }).on("response", (res) => {
+        pipeline(
+            res,
+            output,
+            errCb
+        );
+    });
 
     pipeline(
         input,
         request,
-        (err) => {
-            if (err) {
-                console.error(err)
-            }
-        }
+        errCb
     );
 }
 
 function close_server() {
     let request = http.request(url, {
-
         method: "POST",
         headers: {
             'close': true
         }
-
     });
 
-    request.on("error", (err) => {
-    });
+    request.on("error",()=>{});
     request.end();
 }
