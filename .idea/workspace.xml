@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a688e22-80b8-4b5b-a31d-08f668d691f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-cvicenie/uloha01/src/clientFiles/test1.txt.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-cvicenie/uloha01/src/clientFiles/test2.png.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-cvicenie/uloha01/src/clientFiles/test3.docx.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-cvicenie/uloha01/src/serverFiles/test1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-cvicenie/uloha01/src/serverFiles/test2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-cvicenie/uloha01/src/serverFiles/test3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10-cvicenie/uloha01/src/zip-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-cvicenie/uloha01/src/zip-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-cvicenie/uloha01/test/zip-server.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/10-cvicenie/uloha01/test/zip-server.spec.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/package.json">
+        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/bom.0.1.0.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="436">
+              <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -34,51 +28,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/src/zip-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
+            <state relative-caret-position="833">
               <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/src/zip-client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="166">
+              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/test/zip-server.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/test/zip-server.demo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/data/without-bom-empty.txt">
+        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.0.js">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.4.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.3.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.2.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.1.0.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -90,12 +81,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/test/zip-server.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>assert(h1</find>
       <find>_name</find>
+      <find>transform</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,10 +108,10 @@
         <option value="$PROJECT_DIR$/10-cvicenie/uloha01/package.json" />
         <option value="$PROJECT_DIR$/10-cvicenie/uloha01/test/zip-server.demo.js" />
         <option value="$PROJECT_DIR$/10-cvicenie/uloha01/src/zip-server.js" />
-        <option value="$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/bom.0.1.0.js" />
         <option value="$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/index.js" />
         <option value="$PROJECT_DIR$/10-cvicenie/uloha02/package.json" />
         <option value="$PROJECT_DIR$/10-cvicenie/uloha01/src/zip-client.js" />
+        <option value="$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/bom.0.1.0.js" />
         <option value="$PROJECT_DIR$/10-cvicenie/uloha01/test/zip-server.spec.js" />
       </list>
     </option>
@@ -125,10 +126,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
+    <option name="width" value="976" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -175,6 +176,36 @@
               <item name="10-cvicenie" type="462c0819:PsiDirectoryNode" />
               <item name="uloha02" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wawjsltst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wawjsltst" type="462c0819:PsiDirectoryNode" />
+              <item name="10-cvicenie" type="462c0819:PsiDirectoryNode" />
+              <item name="uloha02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wawjsltst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wawjsltst" type="462c0819:PsiDirectoryNode" />
+              <item name="10-cvicenie" type="462c0819:PsiDirectoryNode" />
+              <item name="uloha02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wawjsltst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wawjsltst" type="462c0819:PsiDirectoryNode" />
+              <item name="10-cvicenie" type="462c0819:PsiDirectoryNode" />
+              <item name="uloha02" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wawjsltst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wawjsltst" type="462c0819:PsiDirectoryNode" />
+              <item name="10-cvicenie" type="462c0819:PsiDirectoryNode" />
+              <item name="uloha02" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="bom" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -213,18 +244,18 @@
       <updated>1576106423167</updated>
       <workItem from="1576106424482" duration="4681000" />
       <workItem from="1576417679117" duration="770000" />
-      <workItem from="1576504412777" duration="2543000" />
+      <workItem from="1576504412777" duration="9828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7994000" />
+    <option name="totallyTimeSpent" value="15279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="976" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,7 +267,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3261105" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -254,12 +285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.0.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/bom.0.0.0.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -272,23 +297,6 @@
     <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/bom.0.0.1.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/bom.0.1.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.3.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.1.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/data/with-bom.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -298,24 +306,10 @@
     <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/data/without-bom-empty.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -338,24 +332,64 @@
     <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/src/serverFiles/test2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/src/zip-server.js">
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/test/zip-server.spec.js">
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.0.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.3.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.0.4.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/test/bom/bom.spec.0.1.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="41" column="3" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+        <state relative-caret-position="221">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha02/src/bom/bom.0.1.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="85" column="27" lean-forward="true" selection-start-line="85" selection-start-column="27" selection-end-line="85" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/src/zip-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/src/zip-client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="166">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-cvicenie/uloha01/test/zip-server.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
         </state>
       </provider>
     </entry>

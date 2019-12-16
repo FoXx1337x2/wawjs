@@ -33,6 +33,8 @@ describe("Zipper Tests", () => {
                 let h1 = crypto.createHash('sha1').update(fileClient).digest().toString();
                 let h2 = crypto.createHash('sha1').update(fileServer).digest().toString();
 
+                // console.log(h1);
+                // console.log(h2);
                 assert(h1 == h2);
                 expect(file(`${__dirname}/../src/clientFiles/${fileName}`)).to.equal(file(`${__dirname}/../src/serverFiles/${fileName}`))
             }
